@@ -1,0 +1,194 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+body{
+	background-color:#000000c9;
+	color:red;
+	text-shadow:0 0 10px #000;
+}
+section{
+	padding:30px 0;
+}
+@media(min-width:320px){
+	.container{
+		width:95%;
+		margin:0 auto;
+	}
+	.row{
+		background:url("https://c0.wallpaperflare.com/preview/652/943/804/close-up-fresh-freshness-garden.jpg");
+		background-position:center;
+		width:100%;
+		margin:0 auto;
+		background-color:#fff;
+		box-shadow:0 0 30px #000;
+		border-radius:10px;
+		padding:10px;
+	}
+	.fulldate{
+		box-shadow:0 0 30px #000;
+		border-radius:10px;
+		padding:10px 10px;
+		font-size:30px;
+		margin-bottom:10px;
+		display:flex;
+		justify-content:space-between;
+		align-items:flex-end;
+	}
+	.fulldate span{
+		box-shadow:0 0 10px lightgreen;
+		border-radius:10px;
+		padding:10px;
+	}
+	.clock{
+		box-shadow:0 0 30px #000;
+		border-radius:10px;
+		padding:10px 10px;
+		font-size:30px;
+		margin-bottom:10px;
+		display:flex;
+		justify-content:space-between;
+		align-items:flex-end;
+	}
+	.clock span{
+		box-shadow:0 0 10px lightgreen;
+		border-radius:10px;
+		padding:10px;
+	}
+	.session{
+		font-size:10px;
+	}
+	.days{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+	.days span{
+		box-shadow:0 0 10px lightgreen;
+		border-radius:10px;
+		padding:10px;
+		font-size:30px;
+	}
+}
+@media(min-width:620px){
+	.container{
+		width:95%;
+		margin:0 auto;
+	}
+	.row{
+		background:url("https://c0.wallpaperflare.com/preview/652/943/804/close-up-fresh-freshness-garden.jpg");
+		background-position:center;
+		width:100%;
+		margin:0 auto;
+		background-color:#fff;
+		box-shadow:0 0 30px #000;
+		border-radius:10px;
+		padding:20px;
+	}
+	.fulldate{
+		box-shadow:0 0 30px #000;
+		border-radius:10px;
+		padding:30px 30px;
+		font-size:60px;
+		margin-bottom:20px;
+		display:flex;
+		justify-content:space-between;
+		align-items:flex-end;
+	}
+	.fulldate span{
+		box-shadow:0 0 10px lightgreen;
+		border-radius:10px;
+		padding:20px;
+	}
+	.clock{
+		box-shadow:0 0 30px #000;
+		border-radius:10px;
+		padding:30px 20px;
+		font-size:60px;
+		margin-bottom:20px;
+		display:flex;
+		justify-content:space-between;
+		align-items:flex-end;
+	}
+	.clock span{
+		box-shadow:0 0 10px lightgreen;
+		border-radius:10px;
+		padding:20px;
+	}
+	.session{
+		font-size:20px;
+	}
+	.days{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+	.days span{
+		box-shadow:0 0 10px lightgreen;
+		border-radius:10px;
+		padding:20px;
+		font-size:60px;
+	}
+}
+@media(min-width:1000px){
+	.container{
+		width:85%;
+		margin:0 auto;
+	}
+	.row{
+		background:url("https://c0.wallpaperflare.com/preview/652/943/804/close-up-fresh-freshness-garden.jpg");
+		background-position:center;
+		width:50%;
+		margin:0 auto;
+		background-color:#fff;
+		box-shadow:0 0 30px #000;
+		border-radius:10px;
+		padding:20px;
+	}
+	.fulldate{
+		box-shadow:0 0 30px #000;
+		border-radius:10px;
+		padding:30px 30px;
+		font-size:60px;
+		margin-bottom:20px;
+		display:flex;
+		justify-content:space-between;
+		align-items:flex-end;
+	}
+	.fulldate span{
+		box-shadow:0 0 10px lightgreen;
+		border-radius:10px;
+		padding:20px;
+	}
+	.clock{
+		box-shadow:0 0 30px #000;
+		border-radius:10px;
+		padding:30px 20px;
+		font-size:60px;
+		margin-bottom:20px;
+		display:flex;
+		justify-content:space-between;
+		align-items:flex-end;
+	}
+	.clock span{
+		box-shadow:0 0 10px lightgreen;
+		border-radius:10px;
+		padding:20px;
+	}
+	.session{
+		font-size:20px;
+	}
+	.days{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+	.days span{
+		box-shadow:0 0 10px lightgreen;
+		border-radius:10px;
+		padding:20px;
+		font-size:60px;
+	}
+}
